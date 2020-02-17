@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--CSS doc-->
+    <link rel="stylesheet" href="default_2.css">
+
+    <!--Font Awesome Script-->
+    <script src="https://kit.fontawesome.com/13bcfb69b0.js" crossorigin="anonymous"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar"> <!-- User Story #2 - add -->
+            <ul>
+                <li class="nav-link"><a href="#email">Features</a></li>
+                <li class="nav-link"><a href="#video">How It Works</a></li>
+                <li class="nav-link"><a href="#cards_container">Pricing</a></li>
+                <li id="logo" class="nav-link"><a href="#header">STERIO TECH<#></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form action="https://www.freecodecamp.com/email-submit" target="_blank">
+            <img src="Sterio tech.jpg" alt="Company Logo">
+            <label for="email"><h1>Let's Connect</h1></label><br>
+            <input type="email" required id="email" name="email" placeholder="Enter your Email"><br>
+            <input id="submit" type="submit" value="GET STARTED">
+        </form>
+
+        <section id="features">
+            <div class="grid">
+                <div class="icon">
+                    <img src="Sterio tech.jpg">
+                </div>
+                <div class="description">
+                    <h2>Low Prices</h2>
+                    <p>Prices start from 500$ for custom PC. We take only 5% comission for our service!</p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="icon">
+                    <img src="Sterio tech.jpg">
+                </div>
+                <div class="description">
+                    <h2>High Quality</h2>
+                    <p>Sterio Tech provides only high quality materials and high-level service for our customers.</p>
+                </div>
+            </div>
+
+            <div class="grid">
+                <div class="icon">
+                    <img src="Sterio tech.jpg">
+                </div>
+                <div class="description">
+                    <h2>30 Days Guarantee</h2>
+                    <p>If you are not satisfied with our service you can have your money back!</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="video">
+            <iframe width="517" height="291" src="https://www.youtube.com/embed/K00dKueUDuI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <section id="cards_container">
+            <div class="card">
+                <img id="adjust" src="img_1.jpg" alt="Gaming PC" style="width: 100%">
+                <div class="container">
+                    <h3>Gaming PC</h3>
+                    <h4>2000 $</h4>
+                    <button class="button button4">Buy</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img_1.jpg" alt="Office PC" style="width: 100%">
+                <div class="container">
+                    <h3>Office PC</h3>
+                    <h4>1000 $</h4>
+                    <button class="button button4">Buy</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img_1.jpg" alt="Family PC" style="width: 100%">
+                <div class="container">
+                    <h3>Family PC</h3>
+                    <h4>1500 $</h4>
+                    <button class="button button4">Buy</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
